@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Side chat",
+    "description": "Derive switchable side conversations from the current conversation in the right sidebar: inherit context, switch models, message back and forth, and promote one into a workspace conversation."
+  }
+}

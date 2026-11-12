@@ -1,0 +1,15 @@
+# dsh-sidechat profile patch layer — one loader entry.
+#
+# The host half registers the `/side` command, the `sidechat` agent tool, and a
+# chat-only fork provider. The browser half is picked up by dsh-client-modules
+# through the package's `dsh.client` declaration, the same way the shipped ui-*
+# packages are picked up.
+#
+# Children are ordinary continuable subagent children of the parent Session, so
+# they never enter the workspace list; the right sidebar is their only home. The
+# plugin currently takes no configuration, so this row carries none: a profile
+# patch row that names this id later and supplies `config` would be ignored by
+# the plugin body.
+- insert:
+    - id: sidechat
+      name: 'dsh-sidechat'

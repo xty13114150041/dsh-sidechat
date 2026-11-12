@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Side chat">
+  <title>Side chat</title>
+  <!-- Main conversation panel on the left. -->
+  <rect x="6" y="12" width="30" height="40" rx="5" fill="none" stroke="currentColor" stroke-width="3.5"/>
+  <path d="M13 22h16M13 31h16M13 40h10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <!-- Side conversation panel on the right, slightly offset to read as "beside". -->
+  <rect x="42" y="18" width="16" height="22" rx="4" fill="currentColor" opacity="0.14"/>
+  <rect x="42" y="18" width="16" height="22" rx="4" fill="none" stroke="currentColor" stroke-width="3.5"/>
+  <!-- The link between them: the side conversation shares the parent's context. -->
+  <path d="M36 40h6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 6"/>
+</svg>
