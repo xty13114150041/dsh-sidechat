@@ -55,7 +55,7 @@ dsh plugin install <repo>
 在任意会话的输入框里使用。父对话和子对话都能用：
 
 ```
-/side new <提示词> [--name=名字] [--mode=full|chat|fresh] [--model=provider/model]
+/side new <提示词> [--name=名字] [--mode=full|chat|fresh] [--model=provider/model] [--effort=high] [--permission=预设]
 /side list
 /side read <名字|序号> [--limit=8]
 /side tell <名字|序号> <正文>
@@ -85,7 +85,7 @@ dsh plugin install <repo>
 
 ## 兼容性
 
-- DSH `0.2.2-rc.1`（`package.json` 的 `dsh.compatibility.dshReleases`）
+- DSH `0.2.2-rc.1`、`0.2.2-rc.2`（`package.json` 的 `dsh.compatibility.dshReleases`）
 - 依赖已装插件：`dsh-client-ui-sidebar-right`、`dsh-client-ui-subagent`、`dsh-client-locale`
 
 ## 许可
